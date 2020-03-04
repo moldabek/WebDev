@@ -1,0 +1,140 @@
+ul {
+	margin: 0;
+    padding: 0;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  list-style-type: none;
+
+ -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+ul li:hover {
+  background: #ddd;
+}
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+header {
+	background-color: black;
+	margin:-8px -8px ;
+	padding: 23px 75px;
+}
+.words { 
+	color: #adadad;
+	padding:0px 0px;
+	margin:0px 0px;
+	font-size: 26px;
+}
+.mid {
+	text-align: left;
+	padding:25px 163px;
+	margin:1px 0px;
+}
+#myInput {
+    padding: 10px 175px;
+    margin: 5px 187px;
+    text-align: center;
+    border: groove;
+}
+.btn {
+	padding: 10px 22px; 
+    margin: 4px -156px;
+    background-color: blue;
+    color: white;
+    border-radius: 9px;	
+}
+.content {
+	padding: 2px 186px;
+	margin:0px 0px;
+}
+.myClassForUl {
+	padding: 0px 0px;
+	margin:0px 0px;
+	border:groove;
+}
+.content{
+    width:380px;
+    height: 350px;
+    max-height:350px;
+    background-color: #FFF;
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+.item{
+    width:380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:5px;
+    background-color: #FFF;
+    max-width:285px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.item i.de{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}

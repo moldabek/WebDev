@@ -1,0 +1,109 @@
+body {
+    background-color: #fafafa;
+}
+
+.check {
+	display: flex;
+}
+
+#i {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#pro {
+    width: 300px;
+    height: 500px;
+}
+
+.left {
+    margin-left: 350px;
+    margin-top: 50px;
+    float: left;
+}
+
+.right {
+    margin-top: 4%;
+    float: right;
+    margin-right: 300px;
+}
+
+#google, #apple, #microsoft {
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.down {
+    
+    bottom: 0px;
+}
+#insta {
+    margin-left: 650px;
+}
+.upper {
+    background-color: white;
+    border: 1px dotted rgb(49, 49, 49);
+    width: 300px;
+    border-radius: 5px;
+}
+
+.downer {
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color:  white;
+    border: 1px dotted rgb(49, 49, 49);
+}
+.downer p{
+    margin-left: 55px;
+}
+
+.kbtu p{
+    margin-left: 110px;
+}
+#Facebook , #signup {
+    background-color: rgb(15, 177, 231);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin-left: 18%;
+}
+.upper p{
+    margin-left: 5px;
+    font-size: 18px;
+    color: grey;
+    font-weight: 600;
+}
+.upper h4 {
+    margin-left: 5px;
+}
+#second {
+    margin-left: 30%;
+}
+
+#mobile, #name, #nickname, #password {
+    margin-left: 15%;
+    margin-bottom: 5px;
+    font-size: 18px;
+    background-color: rgb(240, 240, 240);
+    border: 0px;
+    border-radius: 5px;
+}
+
+#signup {
+    width: 90%;
+    margin-left: 5%; 
+}
+
+#no, #ll {
+    text-decoration: none;
+}
+.well p{
+    font-size: 15px;
+}
+
+#go {
+    margin-left: 55px;
+}

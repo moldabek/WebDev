@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma,sans-serif,Arial,Helvetica;
+    font-size: 13px;
+    width: 100vw;
+    height: 100vh;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.background {
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
+
+body .background_blue {
+    background-color: #5682a3;
+    height: 30.4%;
+}
+
+body .background_white {
+    background-color: #e7ebf0;
+    height: 69.6%;
+}
+
+.gray {
+    color: #999;
+}
+
+.bordered {
+    border-bottom: 1px solid #e6e6e6;
+    margin: 3px 0;
+    padding: 3px 0;
+}
+
+.content {
+    width: 100%;
+}
+
+.container {
+    height: 80.1%;
+    width: 404px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/*Login Header*/
+
+.login_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5682a3;
+    color: #ffffff;
+    line-height: 20px;
+    padding: 23px 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.logo_img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.next_btn {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*Login Main*/
+
+.login_main {
+    background-color: #ffffff;
+    padding: 44px 65px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(97,127,152,.2), 1px 0 0 rgba(97,127,152,.1), -1px 0 0 rgba(97,127,152,.1);
+}
+
+.greeting_title {
+    font-weight: 700;
+    color: #222;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.greeting_text {
+    margin-bottom: 30px;
+}
+
+.country {
+    cursor: pointer;
+}
+
+.code {
+    margin-top: 22px;
+}
+
+.code_title {
+    cursor: default;
+}
+
+.code_choose {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code_begin {
+    width: 50px;
+}
+
+.code_end {
+    width: 199px;
+}
+
+/*About*/
+
+.about {
+    position: absolute;
+    color: #84a2bc;
+    text-align: center;
+    bottom: 7%;
+}
+
+.about_link {
+    line-height: 16px;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.about_link:hover {
+    border-bottom: 1px solid #84a2bc;
+}
