@@ -1,2 +1,3 @@
 # WebDev
-# WebDevelopment
+HTML,CSS,JS,ANGULAR,TS,DJANGO
+
